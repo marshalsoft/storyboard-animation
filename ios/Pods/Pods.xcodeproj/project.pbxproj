@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0928C59586A2C6B508EFA8887492F667 /* Pods-wedeynearTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E62AEF78820E1D321B6910915D5B0E4F /* Pods-wedeynearTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32385E8A9AC69786F72CD1220B5CD53B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
+		36309CAA809B90D196153FE009D5FEA9 /* Pods-wedeynear-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A9480EAC290F583EA066057071532B /* Pods-wedeynear-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396F46B2DAE9A20AD78BE65BDDED23A0 /* Pods-wedeynear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB92C3B40641D8DD9789F61482C8B2F /* Pods-wedeynear-dummy.m */; };
+		46115DF0DF2E0D2A9297BE841E06232C /* Pods-wedeynearTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA168A02FE291E2B1A92B536753E15 /* Pods-wedeynearTests-dummy.m */; };
+		70202FA42E2A7F820F305CB9C5497F5C /* Pods-wedeynear-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C64B56F1AA6BC417373517CEA0E2F8D /* Pods-wedeynear-tvOSTests-dummy.m */; };
+		78C5800349BFAD3D7D184950CE94B1E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
+		9715FAEA918AA77E13EA87086545ACA8 /* Pods-wedeynear-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C06E1B9E9C3257A0377CABE48EACE46 /* Pods-wedeynear-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA4612A0725E1B3CB9D4E6C3A472059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		E09CD5D8A697B8B78AA81D8BC97B252B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		F711EDC4E99534CB237BD7FA4FFCE2F1 /* Pods-wedeynear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39631D7D8CCAD84EFC9ACCE0A61B4A21 /* Pods-wedeynear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86A7576B990B2B962C676A811831DBB /* Pods-wedeynear-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 994B3962057BC6D9B1E1293719F00A26 /* Pods-wedeynear-tvOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D2BA39E5B2E77807E213460C9BC1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94650193500D0EDC3FCFCB855A2F057E;
+			remoteInfo = "Pods-wedeynear";
+		};
+		C1B5A3652A97DDB9A16539423E75EAC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F00A1BEDC2144D22F56424DC1B5CE515;
+			remoteInfo = "Pods-wedeynear-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CFBF115B2DFA5C893DE9D4063B2B4F5 /* Pods-wedeynearTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynearTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F181672FC76985C4E954BF965B0C406 /* Pods-wedeynear-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynear-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		17036E86D43EB5ACF6A96D581DC2DCA7 /* Pods-wedeynear-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynear-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		2123969DFFA0749993040CFF083F9387 /* Pods-wedeynearTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynearTests.release.xcconfig"; sourceTree = "<group>"; };
+		261ED220ADC242447C166C0725312F75 /* Pods-wedeynear-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wedeynear-acknowledgements.markdown"; sourceTree = "<group>"; };
+		275570ED058D093C1E318BC0B91BBBBC /* Pods-wedeynear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynear.release.xcconfig"; sourceTree = "<group>"; };
+		2AD42E4DADD841531BDD1C960B1E1380 /* Pods-wedeynear-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynear-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		39631D7D8CCAD84EFC9ACCE0A61B4A21 /* Pods-wedeynear-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wedeynear-umbrella.h"; sourceTree = "<group>"; };
+		3CF61296617002CF6BB583471A870831 /* Pods-wedeynearTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynearTests-Info.plist"; sourceTree = "<group>"; };
+		3DF3E991D208FF73B1DB18B56787F4A4 /* Pods-wedeynear-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynear-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		448EEC0032D08210655DC6BD958824CF /* Pods-wedeynear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynear.debug.xcconfig"; sourceTree = "<group>"; };
+		4C64B56F1AA6BC417373517CEA0E2F8D /* Pods-wedeynear-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wedeynear-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D3D05F85592D194630BA58F76E0F6F9 /* Pods_wedeynear_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wedeynear_tvOSTests.framework; path = "Pods-wedeynear-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E0E71A9B03975E86CA193E7A0452E0 /* Pods-wedeynear-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wedeynear-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DB92C3B40641D8DD9789F61482C8B2F /* Pods-wedeynear-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wedeynear-dummy.m"; sourceTree = "<group>"; };
+		751FDF3721A20FBD440C1AC4057D5238 /* Pods_wedeynear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wedeynear.framework; path = "Pods-wedeynear.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76464DBE1410A382C360F7C3E341911B /* Pods-wedeynearTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wedeynearTests.modulemap"; sourceTree = "<group>"; };
+		862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C06E1B9E9C3257A0377CABE48EACE46 /* Pods-wedeynear-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wedeynear-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		8D1239867ACA63468BB67F1A2783E206 /* Pods-wedeynear-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynear-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		8E3C9CCDAFD98FF768B1FF750D8CB700 /* Pods-wedeynear-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wedeynear-tvOS.modulemap"; sourceTree = "<group>"; };
+		994B3962057BC6D9B1E1293719F00A26 /* Pods-wedeynear-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wedeynear-tvOS-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C329530E601926EEA26A54EE88AEA2 /* Pods-wedeynear-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wedeynear-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE230E12135C35EB8F88723B80939288 /* Pods-wedeynear-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynear-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFFA168A02FE291E2B1A92B536753E15 /* Pods-wedeynearTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wedeynearTests-dummy.m"; sourceTree = "<group>"; };
+		B1A9480EAC290F583EA066057071532B /* Pods-wedeynear-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wedeynear-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		B1C8B9A186AE77115FA7DC0A94E9E7FE /* Pods-wedeynear-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynear-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2D34C8773A02079962D17ECA1210E69 /* Pods-wedeynear-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynear-tvOS-Info.plist"; sourceTree = "<group>"; };
+		D5B4C20B4F78B83E98960E5C86D52A62 /* Pods-wedeynear-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wedeynear-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		DAE30978B55E023F98137E46B576DF13 /* Pods-wedeynear.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wedeynear.modulemap"; sourceTree = "<group>"; };
+		DB0D99C90156E14C967666B0C84021CF /* Pods_wedeynearTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wedeynearTests.framework; path = "Pods-wedeynearTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB391F6E505176D9C9A6A3FD19726806 /* Pods-wedeynearTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wedeynearTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDEFDB1EA1467B8960089F9D661DE917 /* Pods-wedeynearTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynearTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF890E7B8B85F43C2DEB6506391DB0A3 /* Pods_wedeynear_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wedeynear_tvOS.framework; path = "Pods-wedeynear-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62AEF78820E1D321B6910915D5B0E4F /* Pods-wedeynearTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wedeynearTests-umbrella.h"; sourceTree = "<group>"; };
+		E79971EA282B6381DAA263995209650C /* Pods-wedeynear-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wedeynear-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		EC44FF6374D194CD77D519DFD1095FC4 /* Pods-wedeynear-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wedeynear-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57341537455B87C88F5EEE074B14CCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09CD5D8A697B8B78AA81D8BC97B252B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986894BFC09248C3E8934EB9A9B3F445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA4612A0725E1B3CB9D4E6C3A472059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF86361B2039A42CD064965B993FE57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32385E8A9AC69786F72CD1220B5CD53B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFAD5AB0A5487D4CB1C758638847F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C5800349BFAD3D7D184950CE94B1E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		393C8D2187261580C60608652322B6A7 /* Pods-wedeynearTests */ = {
+			isa = PBXGroup;
+			children = (
+				76464DBE1410A382C360F7C3E341911B /* Pods-wedeynearTests.modulemap */,
+				DB391F6E505176D9C9A6A3FD19726806 /* Pods-wedeynearTests-acknowledgements.markdown */,
+				DDEFDB1EA1467B8960089F9D661DE917 /* Pods-wedeynearTests-acknowledgements.plist */,
+				AFFA168A02FE291E2B1A92B536753E15 /* Pods-wedeynearTests-dummy.m */,
+				3CF61296617002CF6BB583471A870831 /* Pods-wedeynearTests-Info.plist */,
+				E62AEF78820E1D321B6910915D5B0E4F /* Pods-wedeynearTests-umbrella.h */,
+				0CFBF115B2DFA5C893DE9D4063B2B4F5 /* Pods-wedeynearTests.debug.xcconfig */,
+				2123969DFFA0749993040CFF083F9387 /* Pods-wedeynearTests.release.xcconfig */,
+			);
+			name = "Pods-wedeynearTests";
+			path = "Target Support Files/Pods-wedeynearTests";
+			sourceTree = "<group>";
+		};
+		78DCA046489D0694D4EE0FC7BD6192F4 /* Pods-wedeynear */ = {
+			isa = PBXGroup;
+			children = (
+				DAE30978B55E023F98137E46B576DF13 /* Pods-wedeynear.modulemap */,
+				261ED220ADC242447C166C0725312F75 /* Pods-wedeynear-acknowledgements.markdown */,
+				AE230E12135C35EB8F88723B80939288 /* Pods-wedeynear-acknowledgements.plist */,
+				6DB92C3B40641D8DD9789F61482C8B2F /* Pods-wedeynear-dummy.m */,
+				EC44FF6374D194CD77D519DFD1095FC4 /* Pods-wedeynear-Info.plist */,
+				39631D7D8CCAD84EFC9ACCE0A61B4A21 /* Pods-wedeynear-umbrella.h */,
+				448EEC0032D08210655DC6BD958824CF /* Pods-wedeynear.debug.xcconfig */,
+				275570ED058D093C1E318BC0B91BBBBC /* Pods-wedeynear.release.xcconfig */,
+			);
+			name = "Pods-wedeynear";
+			path = "Target Support Files/Pods-wedeynear";
+			sourceTree = "<group>";
+		};
+		7BA426A61ECDB18091804837513E216F /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		7D7DEF5A051F8BA4E0FB74BF48BB6D34 /* Pods-wedeynear-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4C20B4F78B83E98960E5C86D52A62 /* Pods-wedeynear-tvOSTests.modulemap */,
+				A7C329530E601926EEA26A54EE88AEA2 /* Pods-wedeynear-tvOSTests-acknowledgements.markdown */,
+				2AD42E4DADD841531BDD1C960B1E1380 /* Pods-wedeynear-tvOSTests-acknowledgements.plist */,
+				4C64B56F1AA6BC417373517CEA0E2F8D /* Pods-wedeynear-tvOSTests-dummy.m */,
+				8D1239867ACA63468BB67F1A2783E206 /* Pods-wedeynear-tvOSTests-Info.plist */,
+				8C06E1B9E9C3257A0377CABE48EACE46 /* Pods-wedeynear-tvOSTests-umbrella.h */,
+				3DF3E991D208FF73B1DB18B56787F4A4 /* Pods-wedeynear-tvOSTests.debug.xcconfig */,
+				B1C8B9A186AE77115FA7DC0A94E9E7FE /* Pods-wedeynear-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-wedeynear-tvOSTests";
+			path = "Target Support Files/Pods-wedeynear-tvOSTests";
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A19B97BA9DB17ACAB60CC4FA3D6A30 /* iOS */,
+				7BA426A61ECDB18091804837513E216F /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B4549E51714E907D86784B8313CAD83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				751FDF3721A20FBD440C1AC4057D5238 /* Pods_wedeynear.framework */,
+				DF890E7B8B85F43C2DEB6506391DB0A3 /* Pods_wedeynear_tvOS.framework */,
+				5D3D05F85592D194630BA58F76E0F6F9 /* Pods_wedeynear_tvOSTests.framework */,
+				DB0D99C90156E14C967666B0C84021CF /* Pods_wedeynearTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A19B97BA9DB17ACAB60CC4FA3D6A30 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				9B4549E51714E907D86784B8313CAD83 /* Products */,
+				D4CFB51E4C7035355CB4FB40956919E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CFB51E4C7035355CB4FB40956919E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78DCA046489D0694D4EE0FC7BD6192F4 /* Pods-wedeynear */,
+				D5CEFF2DC200D2663D62D919CD2172F9 /* Pods-wedeynear-tvOS */,
+				7D7DEF5A051F8BA4E0FB74BF48BB6D34 /* Pods-wedeynear-tvOSTests */,
+				393C8D2187261580C60608652322B6A7 /* Pods-wedeynearTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D5CEFF2DC200D2663D62D919CD2172F9 /* Pods-wedeynear-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8E3C9CCDAFD98FF768B1FF750D8CB700 /* Pods-wedeynear-tvOS.modulemap */,
+				60E0E71A9B03975E86CA193E7A0452E0 /* Pods-wedeynear-tvOS-acknowledgements.markdown */,
+				17036E86D43EB5ACF6A96D581DC2DCA7 /* Pods-wedeynear-tvOS-acknowledgements.plist */,
+				994B3962057BC6D9B1E1293719F00A26 /* Pods-wedeynear-tvOS-dummy.m */,
+				C2D34C8773A02079962D17ECA1210E69 /* Pods-wedeynear-tvOS-Info.plist */,
+				B1A9480EAC290F583EA066057071532B /* Pods-wedeynear-tvOS-umbrella.h */,
+				0F181672FC76985C4E954BF965B0C406 /* Pods-wedeynear-tvOS.debug.xcconfig */,
+				E79971EA282B6381DAA263995209650C /* Pods-wedeynear-tvOS.release.xcconfig */,
+			);
+			name = "Pods-wedeynear-tvOS";
+			path = "Target Support Files/Pods-wedeynear-tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DDC6587AF577568BB1B72D0CB4F05B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36309CAA809B90D196153FE009D5FEA9 /* Pods-wedeynear-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91231AEA70EC1B1A628C0FE5D6827DB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F711EDC4E99534CB237BD7FA4FFCE2F1 /* Pods-wedeynear-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE7F26E289B1117628C3E679C38E627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0928C59586A2C6B508EFA8887492F667 /* Pods-wedeynearTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DC007C8BFE72FE60AB9A12E1DC1FC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9715FAEA918AA77E13EA87086545ACA8 /* Pods-wedeynear-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85705BF2603E4D8D979B7FE4BB0086CF /* Pods-wedeynearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D570CFE621BCBABB48DB3338E28943C /* Build configuration list for PBXNativeTarget "Pods-wedeynearTests" */;
+			buildPhases = (
+				9CE7F26E289B1117628C3E679C38E627 /* Headers */,
+				0BDB541B77F77C37564CEFEE1A4E7DD9 /* Sources */,
+				DF86361B2039A42CD064965B993FE57C /* Frameworks */,
+				67AD7F6409A072F39DA35E2A96348A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3222273CFBA993A53A24200F30B11BA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-wedeynearTests";
+			productName = "Pods-wedeynearTests";
+			productReference = DB0D99C90156E14C967666B0C84021CF /* Pods_wedeynearTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94650193500D0EDC3FCFCB855A2F057E /* Pods-wedeynear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5D6118D3A252BE22047CB81374E58C /* Build configuration list for PBXNativeTarget "Pods-wedeynear" */;
+			buildPhases = (
+				91231AEA70EC1B1A628C0FE5D6827DB6 /* Headers */,
+				841DD025F8217CBB9948C8E6EFACC831 /* Sources */,
+				EBFAD5AB0A5487D4CB1C758638847F93 /* Frameworks */,
+				342BFA05677349DF22890021CAE491B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wedeynear";
+			productName = "Pods-wedeynear";
+			productReference = 751FDF3721A20FBD440C1AC4057D5238 /* Pods_wedeynear.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECC7ED16D1BDF8FA655A59C66FD1DDF0 /* Pods-wedeynear-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F6E487A728E1F072E840E0B8D53590 /* Build configuration list for PBXNativeTarget "Pods-wedeynear-tvOSTests" */;
+			buildPhases = (
+				E0DC007C8BFE72FE60AB9A12E1DC1FC0 /* Headers */,
+				EAD629DD96FA54B2F7446A4AEEAE72DC /* Sources */,
+				57341537455B87C88F5EEE074B14CCC2 /* Frameworks */,
+				9431B1628CC08EC680AD713F9DF3BA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3E8A32CF35EB300605533346BABD2E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-wedeynear-tvOSTests";
+			productName = "Pods-wedeynear-tvOSTests";
+			productReference = 5D3D05F85592D194630BA58F76E0F6F9 /* Pods_wedeynear_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F00A1BEDC2144D22F56424DC1B5CE515 /* Pods-wedeynear-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEAB263FBFB92542104A088A8DB782E /* Build configuration list for PBXNativeTarget "Pods-wedeynear-tvOS" */;
+			buildPhases = (
+				5DDC6587AF577568BB1B72D0CB4F05B1 /* Headers */,
+				C8EEF889F316BC9EEB8FDDFF3BCA41CD /* Sources */,
+				986894BFC09248C3E8934EB9A9B3F445 /* Frameworks */,
+				55D729F9D132B1329A0F014F126AB598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wedeynear-tvOS";
+			productName = "Pods-wedeynear-tvOS";
+			productReference = DF890E7B8B85F43C2DEB6506391DB0A3 /* Pods_wedeynear_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9B4549E51714E907D86784B8313CAD83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94650193500D0EDC3FCFCB855A2F057E /* Pods-wedeynear */,
+				F00A1BEDC2144D22F56424DC1B5CE515 /* Pods-wedeynear-tvOS */,
+				ECC7ED16D1BDF8FA655A59C66FD1DDF0 /* Pods-wedeynear-tvOSTests */,
+				85705BF2603E4D8D979B7FE4BB0086CF /* Pods-wedeynearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342BFA05677349DF22890021CAE491B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D729F9D132B1329A0F014F126AB598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AD7F6409A072F39DA35E2A96348A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9431B1628CC08EC680AD713F9DF3BA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDB541B77F77C37564CEFEE1A4E7DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46115DF0DF2E0D2A9297BE841E06232C /* Pods-wedeynearTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841DD025F8217CBB9948C8E6EFACC831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396F46B2DAE9A20AD78BE65BDDED23A0 /* Pods-wedeynear-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EEF889F316BC9EEB8FDDFF3BCA41CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86A7576B990B2B962C676A811831DBB /* Pods-wedeynear-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD629DD96FA54B2F7446A4AEEAE72DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70202FA42E2A7F820F305CB9C5497F5C /* Pods-wedeynear-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3222273CFBA993A53A24200F30B11BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-wedeynear";
+			target = 94650193500D0EDC3FCFCB855A2F057E /* Pods-wedeynear */;
+			targetProxy = 20D2BA39E5B2E77807E213460C9BC1DB /* PBXContainerItemProxy */;
+		};
+		B3E8A32CF35EB300605533346BABD2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-wedeynear-tvOS";
+			target = F00A1BEDC2144D22F56424DC1B5CE515 /* Pods-wedeynear-tvOS */;
+			targetProxy = C1B5A3652A97DDB9A16539423E75EAC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B1F89AB8ED144336A5F3DCA9D35493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448EEC0032D08210655DC6BD958824CF /* Pods-wedeynear.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynear/Pods-wedeynear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynear/Pods-wedeynear.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2965EA81729585B0DEAA01D2616025F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		89DF6FF8509156CB2AFDEF60DE520DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2123969DFFA0749993040CFF083F9387 /* Pods-wedeynearTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynearTests/Pods-wedeynearTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynearTests/Pods-wedeynearTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D0A4F2B3AD2B2825F73F13FCA359479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFBF115B2DFA5C893DE9D4063B2B4F5 /* Pods-wedeynearTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynearTests/Pods-wedeynearTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynearTests/Pods-wedeynearTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A045E79B521F1606576396897EE8DA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C8B9A186AE77115FA7DC0A94E9E7FE /* Pods-wedeynear-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynear-tvOSTests/Pods-wedeynear-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynear-tvOSTests/Pods-wedeynear-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEC0E8DA9709D0A86E414163CAF77310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275570ED058D093C1E318BC0B91BBBBC /* Pods-wedeynear.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynear/Pods-wedeynear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynear/Pods-wedeynear.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3FEA2DCBAFD9BA1081C4EFC583FC982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF3E991D208FF73B1DB18B56787F4A4 /* Pods-wedeynear-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynear-tvOSTests/Pods-wedeynear-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynear-tvOSTests/Pods-wedeynear-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7AB61C6CD11EB24760366A4311C9116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		CDF5853DCFD92DE1C31EC656DAB084B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F181672FC76985C4E954BF965B0C406 /* Pods-wedeynear-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynear-tvOS/Pods-wedeynear-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynear-tvOS/Pods-wedeynear-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB5B25E1B9ABB6D153F03F69860C589B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79971EA282B6381DAA263995209650C /* Pods-wedeynear-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wedeynear-tvOS/Pods-wedeynear-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wedeynear-tvOS/Pods-wedeynear-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D570CFE621BCBABB48DB3338E28943C /* Build configuration list for PBXNativeTarget "Pods-wedeynearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0A4F2B3AD2B2825F73F13FCA359479 /* Debug */,
+				89DF6FF8509156CB2AFDEF60DE520DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2965EA81729585B0DEAA01D2616025F7 /* Debug */,
+				C7AB61C6CD11EB24760366A4311C9116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F6E487A728E1F072E840E0B8D53590 /* Build configuration list for PBXNativeTarget "Pods-wedeynear-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FEA2DCBAFD9BA1081C4EFC583FC982 /* Debug */,
+				A045E79B521F1606576396897EE8DA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEAB263FBFB92542104A088A8DB782E /* Build configuration list for PBXNativeTarget "Pods-wedeynear-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF5853DCFD92DE1C31EC656DAB084B3 /* Debug */,
+				DB5B25E1B9ABB6D153F03F69860C589B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5D6118D3A252BE22047CB81374E58C /* Build configuration list for PBXNativeTarget "Pods-wedeynear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B1F89AB8ED144336A5F3DCA9D35493 /* Debug */,
+				AEC0E8DA9709D0A86E414163CAF77310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

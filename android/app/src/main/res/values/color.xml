@@ -1,0 +1,5 @@
+<resources>
+    <color name="notificationColor">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#ff7076</color>
+</resources>

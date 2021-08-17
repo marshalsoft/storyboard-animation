@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'wedeynear' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'toolbar-android', :path => '../node_modules/@react-native-community/toolbar-android'
+
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'react-native-biometrics', :path => '../node_modules/react-native-biometrics'
+
+
+  pod 'RNCustomizedImagePicker', :path => '../node_modules/react-native-customized-image-picker'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  target 'wedeynearTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'wedeynear-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for wedeynear-tvOS
+
+  target 'wedeynear-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
